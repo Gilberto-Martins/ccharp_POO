@@ -20,10 +20,13 @@ namespace exemploPOO.model
             this.idade = Idade;
         }
 
-        
+        public Pessoa ()
+        {
+
+        }
 
         //metodos
-        public void apresentar()
+        public virtual void apresentar()
         {
             Console.WriteLine("meu nome é "+nome+" e tenho "+idade+" anos.");
         }
