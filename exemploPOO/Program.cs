@@ -66,6 +66,9 @@ namespace exemploPOO
             */
 
 
+
+
+
             //Classes abstratas são moldes, não pode ser esntançiada
             /*
             Corrente con1 = new Corrente();
@@ -75,6 +78,25 @@ namespace exemploPOO
 
             // Classe Selados, ela não permite herança dela
             //para torna uma class do tipo selada basta inserir antes de class o "sealed" não se pode herda metodos ou classes seladas(sealed)
+
+            
+
+            //Classe object
+            //Computador pc = new Computador();
+            //Console.WriteLine(pc.ToString());
+
+
+
+            //Class interface
+            Calculadora cals = new Calculadora();
+            double nub1 = Convert.ToDouble(Console.ReadLine());
+            double nub2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(cals.Mult(nub1, nub2));
+
+
+
+
+
 
         }
     }
