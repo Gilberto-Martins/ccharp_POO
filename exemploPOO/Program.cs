@@ -67,10 +67,15 @@ namespace exemploPOO
 
 
             //Classes abstratas são moldes, não pode ser esntançiada
-
+            /*
             Corrente con1 = new Corrente();
             con1.Creditar(100);
             con1.Saldo();
+            */
+
+            // Classe Selados, ela não permite herança dela
+            //para torna uma class do tipo selada basta inserir antes de class o "sealed" não se pode herda metodos ou classes seladas(sealed)
+
         }
     }
 }
