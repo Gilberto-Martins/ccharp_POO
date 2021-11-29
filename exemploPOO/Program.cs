@@ -22,7 +22,15 @@ namespace exemploPOO
             p1.apresentar();
             */
 
+
+
+
+
+
+
             // Herança
+            
+            /*
             Aluno al1 = new Aluno();
             Console.Write("Nome: ");
             al1.nome = Console.ReadLine();
@@ -36,8 +44,13 @@ namespace exemploPOO
 
             Console.Write("Digite seu ano de Curso: ");
             al1.anoCurso = Console.ReadLine();
-            
+
             al1.apresentar();
+            */
+
+
+
+
 
             //Encapisulamento
             /*
@@ -51,6 +64,13 @@ namespace exemploPOO
             Console.WriteLine("------------------------------------------------");
             Console.WriteLine("O valor da area é: " + ret.Area());
             */
+
+
+            //Classes abstratas são moldes, não pode ser esntançiada
+
+            Corrente con1 = new Corrente();
+            con1.Creditar(100);
+            con1.Saldo();
         }
     }
 }
